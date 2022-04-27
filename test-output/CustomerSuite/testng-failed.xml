@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CustomerSuite]">
+  <test name="AddCustomerTest(failed)">
+    <classes>
+      <class name="com.atmecs.suite.customer.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.atmecs.suite.customer.testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- AddCustomerTest(failed) -->
+  <test name="OpenAccountTest(failed)">
+    <classes>
+      <class name="com.atmecs.suite.customer.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="0 3"/>
+        </methods>
+      </class> <!-- com.atmecs.suite.customer.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccountTest(failed) -->
+</suite> <!-- Failed suite [CustomerSuite] -->

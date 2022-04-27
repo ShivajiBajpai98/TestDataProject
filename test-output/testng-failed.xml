@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="D:/TestDataProject(failed)">
+    <classes>
+      <class name="com.atmecs.suite.bankmanager.testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomerTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.atmecs.suite.bankmanager.testcases.AddCustomerTest -->
+      <class name="com.atmecs.suite.bankmanager.testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccountTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.atmecs.suite.bankmanager.testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- D:/TestDataProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
